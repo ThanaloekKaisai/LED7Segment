@@ -35,22 +35,40 @@ void SevenSegment::DisplayBlank()
 
 void SevenSegment::DisplayNumber(int number)
 {
-    switch (number)
-    {
+switch (number)
+{
     case 0:
         DisplayNum0();
-    break;
+        break;
     case 1:
         DisplayNum1();
-    break;
+        break;
     case 2:
         DisplayNum2();
-    break;
+        break;
     case 3:
         DisplayNum3();
-    break;
-// Todo: add case 4 to 9
-    }
+        break;
+    case 4:
+        DisplayNum4();
+        break;
+    case 5:
+        DisplayNum5();
+        break;
+    case 6:
+        DisplayNum6();
+        break;
+    case 7:
+        DisplayNum7();
+        break;
+    case 8:
+        DisplayNum8();
+        break;
+    case 9:
+        DisplayNum9();
+        break;
+}
+
 }
 void SevenSegment::DisplayNum0()
 {
