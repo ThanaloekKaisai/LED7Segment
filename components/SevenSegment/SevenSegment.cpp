@@ -162,6 +162,7 @@ void SevenSegment::DisplayNum7()
     seg_d.OFF();
     seg_e.OFF();
     seg_f.OFF();
+    seg_g.OFF();
 }
 void SevenSegment::DisplayNum8()
 {
